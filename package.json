@@ -1,0 +1,16 @@
+{
+    "name": "property",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "handlebars": "npx handlebars js/src/templates/property.handlebars -f js/dist/property-template.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
