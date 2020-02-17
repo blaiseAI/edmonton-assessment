@@ -1,6 +1,8 @@
 // compile requried template
 // const source = document.querySelector('#project-template').innerHTML;
 // const template = Handlebars.compile(source);
+
+let passedValueFromGmap = getPassAddress();
 const form = document.querySelector("form");
 const contents = document.querySelector(".project");
 const inputAddress = document.querySelector("form input");
@@ -27,7 +29,7 @@ const Invalid = (address) => {
  */
 
 if ('caches' in window) {
-    console.log('Yayyy, caching is support ' + navigator.appName);
+    console.log('Yayyy, caching is supported for ' + navigator.appName);
 
 } else {
     console.log('No support ' + navigator.appName);
