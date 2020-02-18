@@ -2,7 +2,8 @@
 // const source = document.querySelector('#project-template').innerHTML;
 // const template = Handlebars.compile(source);
 
-let passedValueFromGmap = getPassAddress();
+
+// let passedValueFromGmap = getPassAddress();
 const form = document.querySelector("form");
 const contents = document.querySelector(".project");
 const inputAddress = document.querySelector("form input");

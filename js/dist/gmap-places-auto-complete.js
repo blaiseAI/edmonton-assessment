@@ -75,6 +75,8 @@ function initMap() {
         /**
          * Pass the address from the user
          */
+        getPassAddress(place.address_components);
+
         infowindowContent.children['place-icon'].src = place.icon;
         infowindowContent.children['place-name'].textContent = place.name;
         infowindowContent.children['place-address'].textContent = address;
